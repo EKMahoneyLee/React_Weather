@@ -1,8 +1,11 @@
-npm create-app weather-react   => 새앱 설치
+to start: npm start
+
+npm init create-app weather-react   => 새앱 설치
 cd into that folder  => 앱 폴더로 이동
 code. => 자동으로 viseal studio code 열림
 
-
+# weather api (w0432877@campus.nscc.ca) S*******4253*
+https://home.openweathermap.org/users/sign_in
 
 
 

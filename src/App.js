@@ -24,6 +24,7 @@ function App() {
     let months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
     let days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
 
+  //위에 것을 하는 이유는 getDay()는 숫자 리턴(0-6)
     let day = days[d.getDay()];
     let date = d.getDate();
     let month = months[d.getMonth()];

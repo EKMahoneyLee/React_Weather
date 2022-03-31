@@ -1,6 +1,8 @@
 *{
   margin: 0;
   padding: 0;
+  /* Defines how the width and height of an element are calculated:
+   should they include padding and borders, or not */
   box-sizing: border-box;
 }
 
@@ -23,7 +25,9 @@ body{
 
 main{
   min-height: 100vh;
+  /* 바닥으로 갈수록 색깔이 짙어지게 만듬 */
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.75));
+  /* input box 패딩임 */
   padding: 25px;
 }
 
@@ -58,7 +62,8 @@ main{
   background-color: rgba(255, 255, 255, 0.75);
 }
 
-.location-box{
+/* 장소css */
+.location-box .location{
   color: #fff;
   font-size: 32px;
   font-weight: 500;
@@ -66,7 +71,8 @@ main{
   text-shadow: 3px 3px rgba(50,50,70,0.5);
 }
 
-location-box .date{
+/* 날짜 css */
+.location-box .date{
   color: #fff;
   font-size: 20px;
   font-weight: 300;
@@ -79,6 +85,7 @@ location-box .date{
   text-align: center;
 }
 
+/* 온도css */
 .weather-box .temp{
   position: relative;
   display: inline-block;
@@ -97,10 +104,10 @@ location-box .date{
   box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
 }
 
+/* 날짜 css */
 .weather-box .weather{
   color: #fff;
   font-size: 48px;
   font-weight: 700;
   text-shadow: 3px 3px rgba(50,50,70,0.5);
 }
-
